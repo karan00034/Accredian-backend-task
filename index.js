@@ -9,7 +9,7 @@ dotenv.config();
 
 const prisma = new PrismaClient();
 const app = express();
-app.use(cors('*'))
+app.use(cors('*'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
