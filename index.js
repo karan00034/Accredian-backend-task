@@ -27,7 +27,7 @@ checkPrismaConnection();
 
 // Use referral routes
 app.use('/api/referral', referralRoutes);
-app.use('/',()=>{
+app.use('/hi',()=>{
   console.log("hello world")
 })
 const PORT = process.env.PORT || 5000;
